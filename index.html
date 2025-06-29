@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ekramy - Computer Engineer</title>
+    <meta name="description" content="Portfolio of Ahmed Ekramy - Computer Engineer specializing in software development and innovative solutions">
+    <link rel="icon" type="image/jpeg" href="images/profile.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1 class="logo-text" data-en="Ahmed Ekramy" data-ar="أحمد إكرامي">Ahmed Ekramy</h1>
+            </div>
+            <nav class="navbar">
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                    <li><a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                    <li><a href="#about" class="nav-link" data-en="About" data-ar="عني">About</a></li>
+                    <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a></li>
+                </ul>
+                <div class="language-toggle">
+                    <input type="checkbox" id="lang-toggle" class="lang-checkbox">
+                    <label for="lang-toggle" class="lang-label">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-text" data-en="EN" data-ar="AR">EN</span>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="coding-bg">
+            <div class="code-line">const developer = "Ahmed Ekramy";</div>
+            <div class="code-line">function createInnovation() {</div>
+            <div class="code-line">&nbsp;&nbsp;return passion + code;</div>
+            <div class="code-line">}</div>
+            <div class="code-line">// Building the future...</div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Ahmed Ekramy" />
+                    <div class="profile-glow"></div>
+                </div>
+            </div>
+            <h2 class="hero-name" data-en="Ahmed Ekramy" data-ar="أحمد إكرامي">Ahmed Ekramy</h2>
+            <p class="hero-description" data-en="Computer Engineer passionate about creating innovative solutions through code. Specialized in software development, system design, and emerging technologies." data-ar="مهندس حاسوب شغوف بإنشاء حلول مبتكرة من خلال البرمجة. متخصص في تطوير البرمجيات وتصميم الأنظمة والتقنيات الناشئة.">
+                Computer Engineer passionate about creating innovative solutions through code. Specialized in software development, system design, and emerging technologies.
+            </p>
+            <button class="cta-button" data-en="View My Work" data-ar="اعرض أعمالي">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Projects" data-ar="المشاريع">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <img src="images/grand-slam.png" alt="Grand Slam Padel" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Grand Slam Padel Booking System" data-ar="جراند سلام لحجز ملاعب البادل">Grand Slam</h3>
+                        <p class="project-description" data-en="Modern online platform for easy padel court booking, offering two courts with separate time management" data-ar="جراند سلام هى منصة حديثة لحجز ملاعب البادل أونلاين بسهولة، تحتوي على ملعبين بإدارة مستقلة للأوقات، ويتيح للمستخدم اختيار نوع الحجز من بين 4 خيارات حسب المدة والسعر.">
+                            modern online platform for easy padel court booking, offering two courts with separate time management and four reservation options based on duration and price
+                        </p>
+                        <button onclick="window.open('https://grand-slam.vercel.app/')" class="project-button" data-en="View Project" data-ar="عرض المشروع">
+                            <span>View Project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <img src="images/roo-giftshop.png" alt="Roo Giftshop" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Roo Giftshop" data-ar="رو جيفتشوب">Roo Gift Shop</h3>
+                        <p class="project-description" data-en="Stylish and responsive gift shop website designed to showcase and sell bouquets and candels in various creative shapes" data-ar="موقع إلكتروني أنيق ومتجاوب مصمم لعرض وبيع البوكيهات والشموع بأشكال إبداعية ومتنوعة. يتميز الموقع بتصميم عصري وجذاب يسهل على الزوار تصفح المنتجات واختيار الهدايا المناسبة بكل سهولة.">
+                            Roo Giftshop is a stylish and responsive gift shop website designed to showcase and sell bouquets and candels in various creative shapes
+                        </p>
+                        <button onclick="window.open('https://roo-giftshop.vercel.app/')" class="project-button" data-en="View Project" data-ar="عرض المشروع">
+                            <span>View Project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <img src="images/mahmoud-elbana.png" alt="Mahmoud Elbana" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Mahmoud Elbana" data-ar="محمود البنا">Mahmoud Elbana</h3>
+                        <p class="project-description" data-en="personal website for Mahmoud Elbana, a medical student who offers paid online consultations through audio and chat formats,The website allows to Book a Consultation" data-ar="موقع شخصي لـ محمود البنا، طالب في كلية الطب، يقدّم استشارات طبية مدفوعة عبر الإنترنت من خلال المكالمات الصوتية والمحادثات النصية.">
+                            personal website for Mahmoud Elbana, a medical student who offers paid online consultations through audio and chat formats
+                        </p>
+                        <button onclick="window.open('https://mahmoud-elbana.vercel.app/', '_blank')" class="project-button" data-en="View Project" data-ar="عرض المشروع">
+                            <span>View Project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>   
+                    </div>
+                </div>
+            <!--============================================================================================= -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <img src="images/health-pulse.png" alt="Health Pulse" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Health Pulse" data-ar="نبض الصحة">Health Pulse</h3>
+                        <p class="project-description" data-en="Health Pulse is a bilingual health tracking web app that helps users monitor their daily wellness through a modern, animated, and personalized dashboard" data-ar="نبض الصحة هو تطبيق ويب ثنائي اللغة لتتبع الصحة يساعد المستخدمين على متابعة صحتهم اليومية من خلال لوحة تحكم حديثة ومتحركة ومخصصة">
+                            Health Pulse is a bilingual health tracking web app that helps users monitor their daily wellness through a modern, animated, and personalized dashboard
+                        </p>
+                        <button onclick="window.open('https://health-pulse-2026.vercel.app/', '_blank')" class="project-button" data-en="View Project" data-ar="عرض المشروع">
+                            <span>View Project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>   
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <img src="images/elit-supps.png" alt="Health Pulse" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Elite Supps" data-ar="مكملات النخبة">Elite Supps</h3>
+                        <p class="project-description" data-en="Elite Supps is a modern online store specializing in high-quality supplements and vitamins with a bold athletic design" data-ar="إيليت سبس هو متجر إلكتروني متخصص في بيع المكملات الغذائية والفيتامينات بجودة عالية وتصميم رياضي عصري.">
+                            Elite Supps is a modern online store specializing in high-quality supplements and vitamins with a bold athletic design 
+                        <button onclick="window.open('https://health-pulse-2026.vercel.app/', '_blank')" class="project-button" data-en="View Project" data-ar="عرض المشروع">
+                            <span>View Project</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-ar="عني">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph" data-en="I'm Ahmed Ekramy, a passionate Computer Engineer with expertise in software development, system architecture, and emerging technologies. I believe in creating solutions that make a positive impact on people's lives." data-ar="أنا أحمد إكرامي، مهندس حاسوب شغوف بخبرة في تطوير البرمجيات وهندسة الأنظمة والتقنيات الناشئة. أؤمن بإنشاء حلول تؤثر إيجابياً على حياة الناس.">
+                        I'm Ahmed Ekramy, a passionate Computer Engineer with expertise in software development, system architecture, and emerging technologies. I believe in creating solutions that make a positive impact on people's lives.
+                    </p>
+                    <p class="about-paragraph" data-en="With experience in full-stack development, machine learning, and IoT systems, I enjoy tackling complex challenges and turning innovative ideas into reality. I'm always eager to learn new technologies and collaborate on exciting projects." data-ar="مع خبرة في التطوير الشامل والتعلم الآلي وإنترنت الأشياء، أستمتع بحل التحديات المعقدة وتحويل الأفكار المبتكرة إلى واقع. أتطلع دائماً لتعلم تقنيات جديدة والتعاون في مشاريع مثيرة.">
+                        With experience in full-stack development, machine learning, and IoT systems, I enjoy tackling complex challenges and turning innovative ideas into reality. I'm always eager to learn new technologies and collaborate on exciting projects.
+                    </p>
+                </div>
+                <div class="skills-container">
+                    <h3 class="skills-title" data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Databases</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2 class="section-title" data-en="Let's Connect" data-ar="لنتواصل">Let's Connect</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ahmed-ekramy-3aa540253/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/AhmadEkramy" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.instagram.com/_ahmedekramy?igsh=MXJmY2ljdjZzenZiMw==" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://wa.me/+201094543689" class="social-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+            <p class="footer-text" data-en="© 2025 Ahmed Ekramy. All rights reserved." data-ar="© 2025 Ahmed Ekramy. All rights reserved.">© 2024 Ahmed Ekramy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
